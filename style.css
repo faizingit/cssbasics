@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+#external{
+    color: darkgreen;
+    text-decoration: red wavy line-through;
+}
+
+#float img{
+    float: right;
+    float: none;
+    float: left;
+}
+#float{
+    text-transform: uppercase;
+}
+
+.opa{
+    /* font-weight: 900; */
+    font-weight: bolder;
+}
+
+.pos{
+    position: static;
+    /* position: sticky; */
+    /* position: absolute; */
+    /* position: relative; */
+    line-height: 8px;
+}
+
+.tdeco a{
+    text-decoration: none;
+    color: magenta;
+}
+
+div.outer{font-size: 25px;}
+div.inner{font-size: 10px;}
+
+.d1{ 
+    border: 3px solid chartreuse;
+    border-radius: 50% ;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    padding-top: 25px;
+    
+}
+.d2{border: 3px solid blue;
+    border-radius: 25px;
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    text-align: center;
+    margin-left: 40px;
+    
+}
+.d3{border: 3px solid hotpink;
+    border-radius: 15px ;
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    text-align: center;
+    padding-bottom: 25px;
+    margin-left: 100px;
+    
+}
+
+
+
+/* Amazon navbar */
+#navbar{
+    height: 55px;
+    background-color: #0f1111;
+}
+button{background-color: #f08804;color: white;}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+a{margin-right: 200px;color: white;text-decoration: none;}
+
+/* Amazon navbar ends */
+
+
+.b1{
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    
+}
+
+.b2{
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: rgba(251, 8, 8,0.2); /*rgba opacity a-alpha channel*/
+    
+    
+}
+
+.b3{ 
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: rgb(26, 255, 1);
+    display: none;
+    /* display: inline-block; */
+    /* visibility: hidden; */  /*space is reserved*/
+    padding: 25px;
+    margin: 25px;
+}
+.b1,.b2{padding: 25px;margin: 25px;display: inline-block;}
